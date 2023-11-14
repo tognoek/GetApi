@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" /> <!-- Màu đen -->
+        </shape>
+    </item>
+    <!-- Border Layer -->
+    <item android:left="5dp" android:top="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#E2E2E2" /> <!-- Màu nền của LinearLayout -->
+        </shape>
+    </item>
+</layer-list>
